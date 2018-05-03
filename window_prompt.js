@@ -1,5 +1,5 @@
 let name = prompt("please enter your name")
-if (name != null) {
+if (name === "" ) {
     greeting = "thank you"
 }   else {
     greeting = "Your name is unknown"
